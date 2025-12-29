@@ -205,3 +205,30 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+*.egg-info/
+
+# Simulation outputs
+sim_*/
+*.dcd
+*.log
+*.pdb
+*.chk
+
+# Analysis
+analysis_plots/
+*.png
+*.html
+
+# Config files (optional)
+config.yaml
+
+# IDE
+.vscode/
+.idea/
+.DS_Store
