@@ -1,0 +1,46 @@
+# Changelog
+
+All notable changes to OpenMM MD Runner will be documented in this file.
+
+## [1.0.0] - 2025-01-15
+
+### 🎉 Initial Release
+
+#### Added
+- Interactive mode with step-by-step guided setup
+- Configuration file support (YAML/JSON)
+- Checkpoint and restart capability
+- Comprehensive analysis module with 9+ plot types
+- H-bond analysis across trajectory
+- Energy conservation tracking (drift analysis)
+- Automatic HTML report generation
+- Batch mode for automation
+- Analysis-only mode for post-processing
+
+#### Features
+- Energy minimization
+- NVT equilibration with temperature control
+- NPT production runs with pressure control
+- Multiple force field presets (AMBER, CHARMM)
+- Automatic solvation with padding or manual box
+- PME electrostatics
+- HBond constraints for efficiency
+- Multi-platform support (CPU/CUDA/OpenCL)
+
+#### Analysis Plots
+1. Energy components (Potential, Kinetic, Total)
+2. Energy with temperature (dual Y-axis)
+3. Relative energy drift
+4. Cumulative standard deviation
+5. Energy fluctuations
+6. Density and volume evolution
+7. Temperature distribution
+8. Equilibration summary
+9. Combined simulation timeline
+10. Hydrogen bond analysis
+
+#### Documentation
+- Comprehensive README with examples
+- Inline code documentation
+- Usage examples
+- Troubleshooting guide
